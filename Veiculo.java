@@ -44,7 +44,8 @@ public class Veiculo {
         this.placa = placa;
     }
 
-       public String exibirDados() {
+    public String exibirDados() {
         return String.format("Marca: %-12s Modelo: %-15s Ano: %-6d Placa: %s",
                 marca, modelo, ano, placa);
     }
+}
