@@ -12,7 +12,7 @@ public class Veiculo {
         this.placa = placa;
     }
 
-        public String getMarca() {
+    public String getMarca() {
         return marca;
     }
 
@@ -42,8 +42,11 @@ public class Veiculo {
 
     public void setPlaca(String placa) {
         this.placa = placa;
-        @Override
+    }
+
+    @Override
     public String toString() {
         return String.format("Marca: %-12s Modelo: %-15s Ano: %-6d Placa: %s",
                 marca, modelo, ano, placa);
     }
+}
